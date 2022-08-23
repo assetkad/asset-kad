@@ -1,0 +1,473 @@
+﻿<!DOCTYPE html>
+<html lang="ru-RU" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Asset Kad - Junior Front-end Developer, Vue evangelist, JavaScript apologist, NodeJS warlock | asset-kad.netlify.app
+    </title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicons/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="css2?family=Roboto:wght@300;400;500&display=swap&display=swap" rel="stylesheet">
+    <link rel="canonical" id="canonical" href="index.html">
+    <meta id="meta-description" name="description"
+        content="Vue евангелист, JavaScript апологет, NodeJS чернокнижник. Пишу и работаю с современным фронтендом и учусь веб-разработке.">
+    <meta id="meta-keywords" name="keywords"
+        content="asset kad, setkad, asset748, asset dev, vue, frontend, web development, nativescript, nodejs">
+    <meta id="meta-og:title" name="og:title"
+        content="Asset Kad - Junior Front-end Developer, Vue evangelist, JavaScript apologist, NodeJS warlock | asset-kad.netlify.app">
+    <meta id="meta-og:description" name="og:description"
+        content="Vue евангелист, JavaScript апологет, NodeJS чернокнижник. Пишу и работаю с современным фронтендом и учусь веб-разработке.">
+    <meta id="meta-og:type" name="og:type" content="website">
+    <meta id="meta-og:locale" name="og:locale" content="ru-RU">
+    <meta id="meta-og:site_name" name="og:site_name" content="asset-kad.netlify.app">
+    <meta id="meta-og:image:type" name="og:image:type" content="image/jpeg">
+    <meta id="meta-og:image:width" name="og:image:width" content="1200">
+    <meta id="meta-og:image:height" name="og:image:height" content="600">
+    <style>
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%
+        }
+
+        body {
+            margin: 0
+        }
+
+        main {
+            display: block
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: .67em 0
+        }
+
+        hr {
+            box-sizing: content-box;
+            height: 0;
+            overflow: visible
+        }
+
+        pre {
+            font-family: monospace, monospace;
+            font-size: 1em
+        }
+
+        a {
+            background-color: transparent
+        }
+
+        abbr[title] {
+            border-bottom: none;
+            text-decoration: underline;
+            text-decoration: underline dotted
+        }
+
+        b,
+        strong {
+            font-weight: bolder
+        }
+
+        code,
+        kbd,
+        samp {
+            font-family: monospace, monospace;
+            font-size: 1em
+        }
+
+        small {
+            font-size: 80%
+        }
+
+        sub,
+        sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline
+        }
+
+        sub {
+            bottom: -.25em
+        }
+
+        sup {
+            top: -.5em
+        }
+
+        img {
+            border-style: none
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0
+        }
+
+        button,
+        input {
+            overflow: visible
+        }
+
+        button,
+        select {
+            text-transform: none
+        }
+
+        [type=button],
+        [type=reset],
+        [type=submit],
+        button {
+            -webkit-appearance: button
+        }
+
+        [type=button]::-moz-focus-inner,
+        [type=reset]::-moz-focus-inner,
+        [type=submit]::-moz-focus-inner,
+        button::-moz-focus-inner {
+            border-style: none;
+            padding: 0
+        }
+
+        [type=button]:-moz-focusring,
+        [type=reset]:-moz-focusring,
+        [type=submit]:-moz-focusring,
+        button:-moz-focusring {
+            outline: 1px dotted ButtonText
+        }
+
+        fieldset {
+            padding: .35em .75em .625em
+        }
+
+        legend {
+            box-sizing: border-box;
+            color: inherit;
+            display: table;
+            max-width: 100%;
+            padding: 0;
+            white-space: normal
+        }
+
+        progress {
+            vertical-align: baseline
+        }
+
+        textarea {
+            overflow: auto
+        }
+
+        [type=checkbox],
+        [type=radio] {
+            box-sizing: border-box;
+            padding: 0
+        }
+
+        [type=number]::-webkit-inner-spin-button,
+        [type=number]::-webkit-outer-spin-button {
+            height: auto
+        }
+
+        [type=search] {
+            -webkit-appearance: textfield;
+            outline-offset: -2px
+        }
+
+        [type=search]::-webkit-search-decoration {
+            -webkit-appearance: none
+        }
+
+        ::-webkit-file-upload-button {
+            -webkit-appearance: button;
+            font: inherit
+        }
+
+        details {
+            display: block
+        }
+
+        summary {
+            display: list-item
+        }
+
+        template {
+            display: none
+        }
+
+        [hidden] {
+            display: none
+        }
+    </style>
+    <style>
+        *,
+        ::after,
+        ::before {
+            box-sizing: border-box
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            -ms-overflow-style: scrollbar;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        body,
+        html {
+            height: 100%;
+            font-size: 1rem;
+            margin: 0;
+            color: #212121;
+            font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, Lucida Grande, sans-serif
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-color: whitesmoke;
+            color: black;
+        }
+
+        a {
+            color: #00695C;
+        }
+
+        main {
+            flex-grow: 1;
+        }
+
+        footer .container {
+            border-top: 1px solid lightgray;
+            padding: 1rem;
+        }
+
+        .copy {
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            margin: 1rem 0;
+        }
+
+        header .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            margin: 0.25rem 0;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+        }
+
+        .brand {
+            font-size: 2rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #00695C;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .logo svg {
+            width: 100%;
+        }
+
+        .slogan {
+            margin: 0.5rem 0;
+            font-style: italic;
+        }
+
+        @media (min-width: 500px) {
+            footer .container {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .copy {
+                margin-bottom: 0;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                width: 920px;
+            }
+        }
+    </style>
+    <script async="" src="gtag/js?id=G-SM4WX8C0M1"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-SM4WX8C0M1'); </script>
+    <script
+        type="text/javascript"> (function (m, e, t, r, i, k, a) { m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) }; m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a) })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(88052285, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true }); </script>
+</head>
+
+<body><noscript>
+        <div><img src="watch/88052285" style="position:absolute; left:-9999px;" alt=""></div>
+    </noscript>
+    <header>
+        <div class="container"> <a class="logo" href="index.htm" aria-label="Asset Kad"> <svg width="98.193657" height="92.24411"
+                    viewBox="0 0 400 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M378.729 319.041H332.765C331.892 319.041 331.311 319.767 331.311 320.494V355.378C331.311 365.552 339.601 373.837 349.783 373.837H362.001C372.183 373.837 380.474 365.552 380.474 355.378V320.494C380.329 319.622 379.601 319.041 378.729 319.041Z"
+                        fill="#F16A51" />
+                    <path
+                        d="M373.202 367.733C383.529 361.919 401.42 344.622 398.511 332.413C397.783 329.215 395.747 326.744 392.693 325.291C385.856 322.093 375.965 326.017 374.802 326.453L378.147 333.285C380.474 332.267 386.293 330.669 389.056 331.977C389.638 332.267 390.22 332.703 390.511 334.012C392.256 341.134 378.292 356.105 368.983 361.337L373.202 367.733Z"
+                        fill="#F16A51" />
+                    <path
+                        d="M360.547 305.087C360.692 305.378 360.692 304.942 360.838 304.651L361.129 303.488C361.274 302.762 361.42 301.89 361.565 301.163C361.711 299.564 361.856 297.82 361.856 296.076C361.711 292.587 360.983 288.953 359.674 285.61C358.22 282.267 356.183 279.506 354.001 277.326C352.838 276.163 351.674 275.291 350.511 274.419L347.601 272.384C344.256 270.058 341.201 267.006 339.02 263.953C338.001 262.355 337.274 260.756 336.983 259.448C336.692 258.14 336.692 257.267 336.838 256.686C336.983 256.395 336.983 256.105 337.274 255.669C337.565 255.233 337.711 254.506 338.147 253.924C338.874 252.616 339.892 251.453 340.911 250.291C343.092 248.256 345.711 246.802 348.329 246.512C350.947 246.076 353.711 246.657 356.474 247.965C357.783 248.692 359.238 249.419 360.547 250.581C361.274 251.163 361.856 251.599 362.583 252.326C363.311 253.052 363.892 253.634 364.765 253.779L367.529 254.215C373.492 255.233 378.874 249.855 379.747 242.006C380.183 237.791 379.165 233.576 377.129 230.523C376.256 229.215 375.092 228.198 373.929 227.326C372.765 226.453 371.456 225.727 370.292 224.855C367.82 223.256 365.056 222.093 362.292 221.221C356.765 219.331 350.511 219.186 344.692 221.076C338.874 222.965 333.347 226.89 328.983 232.413C326.801 235.32 324.911 238.372 323.456 242.006C322.729 243.75 322.147 245.785 321.565 247.965C320.983 250.291 320.692 252.907 320.547 255.378C320.401 260.61 321.711 265.407 323.456 269.186C325.201 272.965 327.383 275.727 329.565 278.052C333.929 282.703 338.583 285.32 343.238 287.355L344.983 288.081L345.856 288.372L346.438 288.517C347.311 288.808 348.038 289.099 348.765 289.535C350.22 290.262 351.674 291.134 352.838 292.587C354.001 293.895 355.165 295.64 356.038 297.674C356.474 298.692 356.911 299.855 357.201 301.163C357.347 301.744 357.492 302.471 357.783 303.052L358.074 304.07C358.22 304.506 358.22 304.651 358.511 305.814C358.801 306.831 359.529 307.413 360.401 306.977C360.401 307.267 360.692 306.105 360.547 305.087Z"
+                        fill="#E1E1E1" fill-opacity="0.61" />
+                    <path
+                        d="M183.127 174.564H116.655C99.637 174.564 85.6733 160.756 85.6733 143.605V76.8895H211.2V146.512C211.2 162.064 198.691 174.564 183.127 174.564Z"
+                        fill="#9A1C27" />
+                    <path
+                        d="M246.255 272.384L56.4368 269.186V248.983C56.4368 215.988 97.0186 185.32 136.728 185.32H166.691C202.036 185.32 246.109 216.279 246.109 245.494V272.384H246.255Z"
+                        fill="#05774D" />
+                    <path
+                        d="M161.018 143.75H136.728C131.782 143.75 127.855 147.674 127.855 152.616V190.407C127.855 201.89 137.164 211.337 148.8 211.337C160.291 211.337 169.746 202.035 169.746 190.407V152.471C169.746 147.674 165.818 143.75 161.018 143.75Z"
+                        fill="#FBC39D" />
+                    <path
+                        d="M128.001 185.174C128.001 185.174 129.746 197.529 148.945 197.529C168.145 197.529 169.891 185.174 169.891 185.174H128.001Z"
+                        fill="#F9AC7F" />
+                    <path
+                        d="M209.02 96.2209C201.747 96.2209 195.783 102.326 195.783 109.884C195.783 117.442 201.747 123.547 209.02 123.547C216.292 123.547 222.256 117.442 222.256 109.884C222.256 102.326 216.292 96.2209 209.02 96.2209Z"
+                        fill="#F9AC7F" />
+                    <path
+                        d="M88.8736 96.2209C81.6008 96.2209 75.6372 102.326 75.6372 109.884C75.6372 117.442 81.6008 123.547 88.8736 123.547C96.1463 123.547 102.11 117.442 102.11 109.884C101.964 102.326 96.1463 96.2209 88.8736 96.2209Z"
+                        fill="#F9AC7F" />
+                    <path
+                        d="M144 189.244C145.455 189.535 147.2 189.535 148.8 189.535C153.745 189.535 158.545 188.953 163.2 187.645V187.5C188.8 180.814 207.709 156.686 207.709 128.052V56.25C207.709 22.3837 181.236 27.7616 148.8 27.7616C116.219 27.7616 89.8914 22.3837 89.8914 56.25V128.052C89.8914 160.32 113.746 186.773 144 189.244Z"
+                        fill="#FBC39D" />
+                    <path
+                        d="M130.619 132.413H166.109C166.109 132.413 162.909 146.366 148.364 146.366C133.819 146.366 130.619 132.413 130.619 132.413Z"
+                        fill="#E6E6E6" />
+                    <path
+                        d="M288.145 373.837H11.6369C5.96413 373.837 1.30957 369.186 1.30957 363.517V363.081C1.30957 357.413 5.96413 352.762 11.6369 352.762H288.145C293.818 352.762 298.473 357.413 298.473 363.081V363.517C298.327 369.186 293.818 373.837 288.145 373.837Z"
+                        fill="#A1DAC5" />
+                    <path
+                        d="M262.838 373.837H35.201C27.9282 373.837 21.9646 367.878 21.9646 360.61V230.087C21.9646 222.82 27.9282 216.86 35.201 216.86H262.838C270.111 216.86 276.074 222.82 276.074 230.087V360.61C276.074 367.878 270.111 373.837 262.838 373.837Z"
+                        fill="#B6ECD8" />
+                    <path
+                        d="M150.111 118.169H146.765C142.692 118.169 139.637 114.68 140.074 110.611L141.819 96.9477C142.255 93.6047 145.164 91.1337 148.511 91.1337C151.856 91.1337 154.765 93.6047 155.202 96.9477L156.947 110.611C157.238 114.68 154.038 118.169 150.111 118.169Z"
+                        fill="#F9AC7F" />
+                    <path
+                        d="M153.309 10.6105H140.946C138.183 10.6105 136.001 8.43028 136.001 5.66866V5.37794C136.001 2.61632 138.183 0.436096 140.946 0.436096H153.309C156.073 0.436096 158.255 2.61632 158.255 5.37794V5.66866C158.255 8.43028 156.073 10.6105 153.309 10.6105Z"
+                        fill="#952C1B" />
+                    <path
+                        d="M85.6732 76.8895H211.2V62.064C211.2 31.6861 186.473 6.97681 156.073 7.12216H140.655C110.255 7.12216 85.5278 31.8314 85.6732 62.2093V76.8895Z"
+                        fill="#F16A51" />
+                    <path
+                        d="M152.873 39.5349H142.4C132.946 39.5349 125.382 47.0931 125.382 56.5407V68.314H169.891V56.5407C169.891 47.0931 162.182 39.5349 152.873 39.5349Z"
+                        fill="#3A0909" />
+                    <path
+                        d="M126.11 59.3023H169.892V73.9825H126.11C122.037 73.9825 118.692 70.6395 118.692 66.5698C118.837 62.5 122.183 59.3023 126.11 59.3023Z"
+                        fill="#FE969A" />
+                    <path
+                        d="M133.237 66.8605C133.237 68.8953 131.637 70.4942 129.601 70.4942C127.565 70.4942 125.965 68.8953 125.965 66.8605C125.965 64.8256 127.565 63.2267 129.601 63.2267C131.637 63.2267 133.237 64.8256 133.237 66.8605Z"
+                        fill="#FF553C" />
+                    <path
+                        d="M133.237 66.8605C133.237 68.8953 131.637 70.4942 129.601 70.4942C127.565 70.4942 125.965 68.8953 125.965 66.8605C125.965 64.8256 127.565 63.2267 129.601 63.2267C131.637 63.2267 133.237 64.8256 133.237 66.8605Z"
+                        fill="#DB3A40" />
+                    <path
+                        d="M145.045 70.4312C147.025 70.0955 148.358 68.2193 148.022 66.2408C147.686 64.2623 145.808 62.9305 143.829 63.2663C141.849 63.602 140.516 65.4782 140.852 67.4567C141.188 69.4352 143.065 70.767 145.045 70.4312Z"
+                        fill="#DB3A40" />
+                    <path
+                        d="M162.764 66.8605C162.764 68.8953 161.164 70.4942 159.127 70.4942C157.091 70.4942 155.491 68.8953 155.491 66.8605C155.491 64.8256 157.091 63.2267 159.127 63.2267C161.164 63.2267 162.764 64.8256 162.764 66.8605Z"
+                        fill="#DB3A40" />
+                    <path
+                        d="M125.674 91.1337C125.674 94.186 123.201 96.5116 120.292 96.5116C117.237 96.5116 114.91 94.0407 114.91 91.1337C114.91 88.0814 117.383 85.7558 120.292 85.7558C123.346 85.6104 125.674 88.0814 125.674 91.1337Z"
+                        fill="#111110" />
+                    <path
+                        d="M179.927 91.1337C179.927 94.186 177.454 96.5116 174.545 96.5116C171.491 96.5116 169.164 94.0407 169.164 91.1337C169.164 88.0814 171.636 85.7558 174.545 85.7558C177.454 85.6104 179.927 88.0814 179.927 91.1337Z"
+                        fill="#111110" />
+                    <path
+                        d="M170.036 59.157C170.036 59.157 180.8 52.7617 179.927 42.0058L166.109 45.9304L169.018 34.0117L156.8 46.6572L170.036 59.157Z"
+                        fill="#3A0909" />
+                    <g clip-path="url(#clip0_111_44)">
+                        <path
+                            d="M153.962 280.523C154.03 280.523 154.097 280.523 154.169 280.523C154.335 282.573 153.552 284.105 152.6 285.214C151.666 286.316 150.388 287.384 148.32 287.222C148.182 285.202 148.966 283.783 149.916 282.677C150.798 281.645 152.414 280.727 153.962 280.523Z"
+                            fill="white" />
+                        <path
+                            d="M160.223 301.861C160.223 301.882 160.223 301.899 160.223 301.919C159.641 303.678 158.812 305.185 157.801 306.584C156.877 307.854 155.745 309.564 153.724 309.564C151.978 309.564 150.818 308.442 149.028 308.411C147.135 308.38 146.094 309.349 144.363 309.593C144.165 309.593 143.967 309.593 143.773 309.593C142.502 309.409 141.476 308.403 140.729 307.497C138.525 304.819 136.823 301.36 136.506 296.933C136.506 296.499 136.506 296.066 136.506 295.632C136.64 292.464 138.181 289.888 140.228 288.639C141.309 287.975 142.795 287.41 144.449 287.663C145.158 287.772 145.882 288.015 146.517 288.255C147.119 288.486 147.871 288.896 148.584 288.874C149.067 288.86 149.547 288.609 150.034 288.431C151.459 287.917 152.857 287.327 154.699 287.604C156.913 287.938 158.484 288.921 159.455 290.438C157.582 291.629 156.102 293.423 156.355 296.488C156.579 299.272 158.199 300.901 160.223 301.861Z"
+                            fill="white" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_111_44">
+                            <rect width="29.0909" height="29.0698" fill="white"
+                                transform="translate(133.818 280.523)" />
+                        </clipPath>
+                    </defs>
+                </svg> </a>
+            <h1><a class="brand" href="index.html">Asset Kad</a></h1>
+            <div class="slogan">Vue евангелист, JavaScript апологет, NodeJS чернокнижник. Пишу и работаю с современным
+                фронтендом и учусь веб-разработке.</div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <p>Vue евангелист, JavaScript апологет, NodeJS чернокнижник. Пишу и работаю с современным фронтендом и учусь
+                веб-разработке.</p>
+            <p>Фронтендер из Уральска. 18 лет</p>
+            <p>По вопросам сотрудничества пишите в телеграм <a href="//t.me/asset_dev">@asset_dev</a>.</p>
+            <h2>Технологии</h2>
+            <p class="subtitle">Использую и популизирую следующий стек технологий:</p>
+            <ul>
+                <li><a href="https://docs.microsoft.com/ru-ru/learn/modules/vue-cli-components/" target="_blank"
+                        rel="nofollow">Vue CLI</a> - CLI для создания приложений
+                    и компонентов Vue</li>
+                <li><a href="https://vuex.vuejs.org/" target="_blank" rel="nofollow">Vuex</a> - реализация Redux в Vue
+                </li>
+                <li><a href="https://universal-vue.github.io/docs/" target="_blank" rel="nofollow">UVue</a> -
+                    Server-side rendering в Vue</li>
+                <li><a href="https://apollo-angular.com/" target="_blank" rel="nofollow">Vue Apollo</a> - GraphQL
+                    клиент для Vue </li>
+                <li><a href="https://nestjs.com/" target="_blank" rel="nofollow">NestJS</a> - Node.js платформа для
+                    создания эффективных, надежных и масштабируемых серверных приложений. </li>
+            </ul>
+            <h2>Социальные сети</h2>
+            <ul>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/asset-kad/">linkedin.com/in/asset-kad</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="copy">© 2022 «asset-kad.netlify.app». </div>
+            <div class="right">Все права защищены, но это не точно.</div>
+        </div>
+    </footer>
+</body>
+
+</html>
